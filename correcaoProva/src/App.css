@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0
+  ;
+}
+.logoHeader{
+width: 130px;
+display: flex;
+filter: invert(10);
+}
+header{
+  background-image: linear-gradient(45deg, gray, white);
+}
+.evento img{
+  width: 500px;
+  border-radius: 30px;
+  height: 400px;
+}
+
+.evento{
+  display:flex;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+}
+.galeria img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+footer{
+  background-image: linear-gradient(45deg, gray, white);
+  color: rgb(0, 0, 0);
+  padding: 20px, 80px;
+}
+.linha1{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  gap: 5px;
+  
+}
+
+.linha2{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  gap: 5px;
+  
+}
